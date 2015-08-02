@@ -9,7 +9,7 @@
 import Foundation
 
 
-class InputStreamHelper {
+class InputStreamHelper: StreamHelper {
     
     
     static let BufferSize = 8 * 1024;

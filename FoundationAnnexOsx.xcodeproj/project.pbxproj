@@ -13,6 +13,8 @@
 		AE2071601B6CCB05003AD84D /* InputStreamHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20715F1B6CCB05003AD84D /* InputStreamHelper.swift */; };
 		AE2071AC1B6CD491003AD84D /* ErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071AB1B6CD491003AD84D /* ErrorHelper.swift */; };
 		AE2071AE1B6CE7DF003AD84D /* OutputStreamHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071AD1B6CE7DF003AD84D /* OutputStreamHelper.swift */; };
+		AE2071B01B6DB948003AD84D /* StreamHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071AF1B6DB948003AD84D /* StreamHelper.swift */; };
+		AE2071B21B6DB9FC003AD84D /* ErrorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071B11B6DB9FC003AD84D /* ErrorBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		AE20715F1B6CCB05003AD84D /* InputStreamHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputStreamHelper.swift; sourceTree = "<group>"; };
 		AE2071AB1B6CD491003AD84D /* ErrorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHelper.swift; sourceTree = "<group>"; };
 		AE2071AD1B6CE7DF003AD84D /* OutputStreamHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputStreamHelper.swift; sourceTree = "<group>"; };
+		AE2071AF1B6DB948003AD84D /* StreamHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamHelper.swift; sourceTree = "<group>"; };
+		AE2071B11B6DB9FC003AD84D /* ErrorBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,10 @@
 			children = (
 				AE20715F1B6CCB05003AD84D /* InputStreamHelper.swift */,
 				AE2071AD1B6CE7DF003AD84D /* OutputStreamHelper.swift */,
-				AE2071481B6CC8ED003AD84D /* FoundationAnnex.h */,
-				AE2071461B6CC8ED003AD84D /* Supporting Files */,
+				AE2071B11B6DB9FC003AD84D /* ErrorBuilder.swift */,
 				AE2071AB1B6CD491003AD84D /* ErrorHelper.swift */,
+				AE2071AF1B6DB948003AD84D /* StreamHelper.swift */,
+				AE2071461B6CC8ED003AD84D /* Supporting Files */,
 			);
 			path = FoundationAnnex;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 		AE2071461B6CC8ED003AD84D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE2071481B6CC8ED003AD84D /* FoundationAnnex.h */,
 				AE2071471B6CC8ED003AD84D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -219,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2071AC1B6CD491003AD84D /* ErrorHelper.swift in Sources */,
+				AE2071B21B6DB9FC003AD84D /* ErrorBuilder.swift in Sources */,
+				AE2071B01B6DB948003AD84D /* StreamHelper.swift in Sources */,
 				AE2071601B6CCB05003AD84D /* InputStreamHelper.swift in Sources */,
 				AE2071AE1B6CE7DF003AD84D /* OutputStreamHelper.swift in Sources */,
 			);
