@@ -3,16 +3,22 @@
 //  FoundationAnnexOsx
 //
 //  Created by rlong on 2/08/2015.
-//  Copyright (c) 2015 rlong. All rights reserved.
+//
 //
 
 import Foundation
 
-class StreamHelper {
+public class StreamHelper {
 
     enum ErrorDomain: String {
         case BrokenPipe = "StreamHelper.BrokenPipe"
     }
     
+
+    public static func closeStream( stream: NSStream?, swallowErrors: Bool, file: String = __FILE__, function: String = __FUNCTION__ ) {
+        
+        stream?.close();
+        
+    }
     
 }

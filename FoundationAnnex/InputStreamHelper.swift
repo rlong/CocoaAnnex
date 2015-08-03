@@ -9,18 +9,18 @@
 import Foundation
 
 
-class InputStreamHelper: StreamHelper {
+public class InputStreamHelper: StreamHelper {
     
     
     static let BufferSize = 8 * 1024;
     
-    static func readDataFromStream( inputStream: NSInputStream, count: Int ) -> NSData  {
+    public static func readDataFromStream( inputStream: NSInputStream, count: Int ) -> NSData  {
         
         return self.readMutableDataFromStream( inputStream, count: count)
         
     }
     
-    static func readMutableDataFromStream( inputStream: NSInputStream, count: Int ) -> NSMutableData {
+    public static func readMutableDataFromStream( inputStream: NSInputStream, count: Int ) -> NSMutableData {
         
         
         let answer = NSMutableData(length: count)
@@ -47,7 +47,7 @@ class InputStreamHelper: StreamHelper {
     }
     
     
-    func seek( inputStream: NSInputStream, to seekPosition: Int ) {
+    public static func seek( inputStream: NSInputStream, to seekPosition: Int ) {
         
         if( 0 == seekPosition ) {
             return;
@@ -61,7 +61,7 @@ class InputStreamHelper: StreamHelper {
     }
 
     
-    func writeFrom( inputStream: NSInputStream, count: Int, to outputData: NSMutableData ) {
+    public static func writeFrom( inputStream: NSInputStream, count: Int, to outputData: NSMutableData ) {
         
 //        let buffer : UInt8[InputStreamHelper.BufferSize]; // fixed-length arrays are not yet supported
         
@@ -94,7 +94,7 @@ class InputStreamHelper: StreamHelper {
     
     
     
-    static func writeFrom( inputStream: NSInputStream, count: Int, to outputStream: NSOutputStream ) {
+    public static func writeFrom( inputStream: NSInputStream, count: Int, to outputStream: NSOutputStream ) {
         
 
         //        let buffer : UInt8[InputStreamHelper.BufferSize]; // fixed-length arrays are not yet supported
@@ -141,7 +141,7 @@ class InputStreamHelper: StreamHelper {
     }
     
     
-    static func writeFrom( inputStream: NSInputStream, count: Int, toFileDescriptor fd: Int32 ) {
+    public static func writeFrom( inputStream: NSInputStream, count: Int, toFileDescriptor fd: Int32 ) {
         
         //        let buffer : UInt8[InputStreamHelper.BufferSize]; // fixed-length arrays are not yet supported
         

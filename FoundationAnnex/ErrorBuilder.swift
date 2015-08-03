@@ -3,7 +3,7 @@
 //  FoundationAnnexOsx
 //
 //  Created by rlong on 2/08/2015.
-//  Copyright (c) 2015 rlong. All rights reserved.
+//
 //
 
 import Foundation
@@ -11,7 +11,7 @@ import Foundation
 
 
 
-class ErrorBuilder {
+public class ErrorBuilder {
     
     
     var domain: String
@@ -60,9 +60,10 @@ class ErrorBuilder {
     }
 
     // we will replace this method with a 'build' method throw the resulting error when Swift 2.0 is released
-    func buildAndThrow() {
+    func buildAndRaise() {
         
-        println( "**ERROR** ErrorHelper.throw is a no-op as of Swift 1.2" )
+        ErrorHandler.defaultErrorHandler.raise( NSError() )
+        
         
     }
     

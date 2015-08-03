@@ -15,6 +15,7 @@
 		AE2071AE1B6CE7DF003AD84D /* OutputStreamHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071AD1B6CE7DF003AD84D /* OutputStreamHelper.swift */; };
 		AE2071B01B6DB948003AD84D /* StreamHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071AF1B6DB948003AD84D /* StreamHelper.swift */; };
 		AE2071B21B6DB9FC003AD84D /* ErrorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071B11B6DB9FC003AD84D /* ErrorBuilder.swift */; };
+		AE2071BD1B6DFD00003AD84D /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071BC1B6DFD00003AD84D /* ErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		AE2071AD1B6CE7DF003AD84D /* OutputStreamHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputStreamHelper.swift; sourceTree = "<group>"; };
 		AE2071AF1B6DB948003AD84D /* StreamHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamHelper.swift; sourceTree = "<group>"; };
 		AE2071B11B6DB9FC003AD84D /* ErrorBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorBuilder.swift; sourceTree = "<group>"; };
+		AE2071BC1B6DFD00003AD84D /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				AE20715F1B6CCB05003AD84D /* InputStreamHelper.swift */,
 				AE2071AD1B6CE7DF003AD84D /* OutputStreamHelper.swift */,
+				AE2071BC1B6DFD00003AD84D /* ErrorHandler.swift */,
 				AE2071B11B6DB9FC003AD84D /* ErrorBuilder.swift */,
 				AE2071AB1B6CD491003AD84D /* ErrorHelper.swift */,
 				AE2071AF1B6DB948003AD84D /* StreamHelper.swift */,
@@ -174,7 +177,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = rlong;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					AE2071431B6CC8ED003AD84D = {
 						CreatedOnToolsVersion = 6.4;
@@ -227,6 +230,7 @@
 				AE2071AC1B6CD491003AD84D /* ErrorHelper.swift in Sources */,
 				AE2071B21B6DB9FC003AD84D /* ErrorBuilder.swift in Sources */,
 				AE2071B01B6DB948003AD84D /* StreamHelper.swift in Sources */,
+				AE2071BD1B6DFD00003AD84D /* ErrorHandler.swift in Sources */,
 				AE2071601B6CCB05003AD84D /* InputStreamHelper.swift in Sources */,
 				AE2071AE1B6CE7DF003AD84D /* OutputStreamHelper.swift in Sources */,
 			);

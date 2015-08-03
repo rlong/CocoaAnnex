@@ -3,7 +3,7 @@
 //  FoundationAnnexOsx
 //
 //  Created by rlong on 1/08/2015.
-//  Copyright (c) 2015 rlong. All rights reserved.
+//
 //
 
 import Foundation
@@ -32,7 +32,7 @@ class OutputStreamHelper: StreamHelper {
                 if( EPIPE == Int32(error.code) ) {
                     errorBuilder.domain = StreamHelper.ErrorDomain.BrokenPipe.rawValue
                 }
-                errorBuilder.buildAndThrow();
+                errorBuilder.buildAndRaise();
                 
             }
             
