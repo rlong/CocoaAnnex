@@ -16,6 +16,7 @@
 		AE2071B01B6DB948003AD84D /* StreamHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071AF1B6DB948003AD84D /* StreamHelper.swift */; };
 		AE2071B21B6DB9FC003AD84D /* ErrorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071B11B6DB9FC003AD84D /* ErrorBuilder.swift */; };
 		AE2071BD1B6DFD00003AD84D /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071BC1B6DFD00003AD84D /* ErrorHandler.swift */; };
+		AEF76B9D1B775F4900814A63 /* NumericUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF76B9C1B775F4900814A63 /* NumericUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		AE2071AF1B6DB948003AD84D /* StreamHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamHelper.swift; sourceTree = "<group>"; };
 		AE2071B11B6DB9FC003AD84D /* ErrorBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorBuilder.swift; sourceTree = "<group>"; };
 		AE2071BC1B6DFD00003AD84D /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		AEF76B9C1B775F4900814A63 /* NumericUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumericUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				AE2071BC1B6DFD00003AD84D /* ErrorHandler.swift */,
 				AE2071B11B6DB9FC003AD84D /* ErrorBuilder.swift */,
 				AE2071AB1B6CD491003AD84D /* ErrorHelper.swift */,
+				AEF76B9C1B775F4900814A63 /* NumericUtilities.swift */,
 				AE2071AF1B6DB948003AD84D /* StreamHelper.swift */,
 				AE2071461B6CC8ED003AD84D /* Supporting Files */,
 			);
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF76B9D1B775F4900814A63 /* NumericUtilities.swift in Sources */,
 				AE2071AC1B6CD491003AD84D /* ErrorHelper.swift in Sources */,
 				AE2071B21B6DB9FC003AD84D /* ErrorBuilder.swift in Sources */,
 				AE2071B01B6DB948003AD84D /* StreamHelper.swift in Sources */,
