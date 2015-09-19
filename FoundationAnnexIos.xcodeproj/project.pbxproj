@@ -11,6 +11,14 @@
 		AE2071311B6CC8DF003AD84D /* FoundationAnnex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2071261B6CC8DF003AD84D /* FoundationAnnex.framework */; };
 		AE2071381B6CC8DF003AD84D /* FoundationAnnexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2071371B6CC8DF003AD84D /* FoundationAnnexTests.swift */; };
 		AE20715E1B6CCAF8003AD84D /* InputStreamHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20715D1B6CCAF8003AD84D /* InputStreamHelper.swift */; };
+		AEF03A781BAD1B9B00923748 /* ErrorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF03A721BAD1B9B00923748 /* ErrorBuilder.swift */; };
+		AEF03A791BAD1B9B00923748 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF03A731BAD1B9B00923748 /* ErrorHandler.swift */; };
+		AEF03A7A1BAD1B9B00923748 /* ErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF03A741BAD1B9B00923748 /* ErrorHelper.swift */; };
+		AEF03A7B1BAD1B9B00923748 /* NumericUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF03A751BAD1B9B00923748 /* NumericUtilities.swift */; };
+		AEF03A7C1BAD1B9B00923748 /* OutputStreamHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF03A761BAD1B9B00923748 /* OutputStreamHelper.swift */; };
+		AEF03A7D1BAD1B9B00923748 /* StreamHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF03A771BAD1B9B00923748 /* StreamHelper.swift */; };
+		AEF03A811BAD1C4900923748 /* FALog.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF03A7F1BAD1C4900923748 /* FALog.h */; };
+		AEF03A821BAD1C4900923748 /* FALog.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF03A801BAD1C4900923748 /* FALog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +39,14 @@
 		AE2071361B6CC8DF003AD84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE2071371B6CC8DF003AD84D /* FoundationAnnexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationAnnexTests.swift; sourceTree = "<group>"; };
 		AE20715D1B6CCAF8003AD84D /* InputStreamHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputStreamHelper.swift; sourceTree = "<group>"; };
+		AEF03A721BAD1B9B00923748 /* ErrorBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorBuilder.swift; sourceTree = "<group>"; };
+		AEF03A731BAD1B9B00923748 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		AEF03A741BAD1B9B00923748 /* ErrorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHelper.swift; sourceTree = "<group>"; };
+		AEF03A751BAD1B9B00923748 /* NumericUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumericUtilities.swift; sourceTree = "<group>"; };
+		AEF03A761BAD1B9B00923748 /* OutputStreamHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputStreamHelper.swift; sourceTree = "<group>"; };
+		AEF03A771BAD1B9B00923748 /* StreamHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamHelper.swift; sourceTree = "<group>"; };
+		AEF03A7F1BAD1C4900923748 /* FALog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FALog.h; sourceTree = "<group>"; };
+		AEF03A801BAD1C4900923748 /* FALog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FALog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +89,14 @@
 		AE2071271B6CC8DF003AD84D /* FoundationAnnex */ = {
 			isa = PBXGroup;
 			children = (
+				AEF03A7E1BAD1C1F00923748 /* log */,
 				AE20715D1B6CCAF8003AD84D /* InputStreamHelper.swift */,
+				AEF03A721BAD1B9B00923748 /* ErrorBuilder.swift */,
+				AEF03A731BAD1B9B00923748 /* ErrorHandler.swift */,
+				AEF03A741BAD1B9B00923748 /* ErrorHelper.swift */,
+				AEF03A751BAD1B9B00923748 /* NumericUtilities.swift */,
+				AEF03A761BAD1B9B00923748 /* OutputStreamHelper.swift */,
+				AEF03A771BAD1B9B00923748 /* StreamHelper.swift */,
 				AE20712A1B6CC8DF003AD84D /* FoundationAnnex.h */,
 				AE2071281B6CC8DF003AD84D /* Supporting Files */,
 			);
@@ -105,6 +128,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AEF03A7E1BAD1C1F00923748 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				AEF03A7F1BAD1C4900923748 /* FALog.h */,
+				AEF03A801BAD1C4900923748 /* FALog.m */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -113,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE20712B1B6CC8DF003AD84D /* FoundationAnnex.h in Headers */,
+				AEF03A811BAD1C4900923748 /* FALog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF03A821BAD1C4900923748 /* FALog.m in Sources */,
+				AEF03A7D1BAD1B9B00923748 /* StreamHelper.swift in Sources */,
+				AEF03A791BAD1B9B00923748 /* ErrorHandler.swift in Sources */,
+				AEF03A781BAD1B9B00923748 /* ErrorBuilder.swift in Sources */,
+				AEF03A7C1BAD1B9B00923748 /* OutputStreamHelper.swift in Sources */,
+				AEF03A7B1BAD1B9B00923748 /* NumericUtilities.swift in Sources */,
+				AEF03A7A1BAD1B9B00923748 /* ErrorHelper.swift in Sources */,
 				AE20715E1B6CCAF8003AD84D /* InputStreamHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
