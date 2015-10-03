@@ -10,8 +10,8 @@ import Foundation
 
 
 
-
-public class ErrorBuilder {
+@objc
+public class ErrorBuilder : NSObject {
     
     
     var domain: String
@@ -38,22 +38,24 @@ public class ErrorBuilder {
         self.code = 0
         userInfo = [String: AnyObject]()
         
+
+
     }
     
-    static func errorForFail( message: String, file: String = __FILE__, line: Int = __LINE__, function: String = __FUNCTION__) -> NSError {
+    public static func errorForFailure( message: String, file: String = __FILE__, line: Int = __LINE__, function: String = __FUNCTION__) -> NSError {
         
         let userInfo = [String:AnyObject]()
         return NSError()
         
     }
     
-    static func errorForCallTo( method: String, failedWithError error: NSError,  file: String = __FILE__, line: Int = __LINE__, function: String = __FUNCTION__) -> NSError {
+    public static func errorForCallTo( method: String, failedWithError error: NSError,  file: String = __FILE__, line: Int = __LINE__, function: String = __FUNCTION__) -> NSError {
         
         return NSError()
         
     }
     
-    static func errorForCallTo( method: String, failedWithErrno errNumber: Int32,  file: String = __FILE__, line: Int = __LINE__, function: String = __FUNCTION__) -> NSError {
+    public static func errorForCallTo( method: String, failedWithErrno errNumber: Int32,  file: String = __FILE__, line: Int = __LINE__, function: String = __FUNCTION__) -> NSError {
         
         return NSError()
         
