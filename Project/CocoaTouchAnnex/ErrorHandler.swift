@@ -15,7 +15,7 @@ class ErrorHandler {
     
     func raise( error: NSError ) {
         
-        println( "**ERROR** ErrorHandler.raise is a no-op as of Swift 1.2" )
+        print( "**ERROR** ErrorHandler.raise is a no-op as of Swift 1.2" )
 
     }
     
